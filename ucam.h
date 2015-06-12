@@ -57,13 +57,25 @@
 			#define JPEG_160x128	0x03
 			#define JPEG_320x240	0x05
 			#define JPEG_640x480	0x07
+			
 		//=====================================================================
 		//	macro for Picture type, page 9 of the data sheet
 		//=====================================================================
 			#define SNAPSHOT_PICTURE	0x01
 			#define RAW_PICTURE			0x02
-			#define JPEG_PICTURE		0x03
+			#define JPEG_PICTURE		0x05
 			
+		//=====================================================================
+		//	macro for Picture type, page 9 of the data sheet
+		//=====================================================================
+			#define CMD_RESET_SYSTEM		0x00
+			#define CMD_RESET_STATE_MACHINE	0x01
+			
+		//=====================================================================
+		//	macro for Picture type, page 9 of the data sheet
+		//=====================================================================
+			#define PICTURE_COMPRESSED		0x00	// (JPEG)
+			#define PICTURE_UNCOMPRESSED	0x01	// (RAW)
 		//=====================================================================
 		//	Include Libraries
 		//=====================================================================
