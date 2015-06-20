@@ -15,18 +15,18 @@
 		//=====================================================================
 		//	macro for command set
 		//=====================================================================
-			#define	STAR_BYTE				0xAA
-			#define CMD_INITIAL				0x01
-			#define CMD_GET_PICTURE			0x04
-			#define CMD_SNAPSHOT			0x05
+			#define	STAR_BYTE		0xAA
+			#define CMD_INITIAL		0x01
+			#define CMD_GET_PICTURE		0x04
+			#define CMD_SNAPSHOT		0x05
 			#define CMD_SET_PACKAGE_SIZE	0x06
-			#define CMD_SET_BAUD_RATE		0x07
-			#define CMD_RESET				0x08
-			#define CMD_DATA				0x0A
-			#define CMD_SYNC				0x0D
-			#define CMD_ACK					0x0E
-			#define CMD_NAK					0x0F
-			#define CMD_LIGHT				0x13
+			#define CMD_SET_BAUD_RATE	0x07
+			#define CMD_RESET		0x08
+			#define CMD_DATA		0x0A
+			#define CMD_SYNC		0x0D
+			#define CMD_ACK			0x0E
+			#define CMD_NAK			0x0F
+			#define CMD_LIGHT		0x13
 			
 			
 		//=====================================================================
@@ -53,7 +53,7 @@
 		//=====================================================================
 		//	macro for JPEG Resolution, page 9 of the data sheet
 		//=====================================================================
-			#define JPEG_80x64		0x01
+			#define JPEG_80x64	0x01
 			#define JPEG_160x128	0x03
 			#define JPEG_320x240	0x05
 			#define JPEG_640x480	0x07
@@ -62,19 +62,19 @@
 		//	macro for Picture type, page 9 of the data sheet
 		//=====================================================================
 			#define SNAPSHOT_PICTURE	0x01
-			#define RAW_PICTURE			0x02
+			#define RAW_PICTURE		0x02
 			#define JPEG_PICTURE		0x05
 			
 		//=====================================================================
 		//	macro for Picture type, page 9 of the data sheet
 		//=====================================================================
-			#define CMD_RESET_SYSTEM		0x00
+			#define CMD_RESET_SYSTEM	0x00
 			#define CMD_RESET_STATE_MACHINE	0x01
 			
 		//=====================================================================
 		//	macro for Picture type, page 9 of the data sheet
 		//=====================================================================
-			#define PICTURE_COMPRESSED		0x00	// (JPEG)
+			#define PICTURE_COMPRESSED	0x00	// (JPEG)
 			#define PICTURE_UNCOMPRESSED	0x01	// (RAW)
 		//=====================================================================
 		//	Include Libraries
